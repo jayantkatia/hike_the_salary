@@ -1,0 +1,62 @@
+body{
+    background-color: #fffd8d;
+    margin:0;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex; 
+    flex-direction:column;
+}   
+
+.font-large{
+    font-size: larger;
+}
+.word-spacing{
+    word-spacing: 2;
+}
+
+.heading{
+    padding: 1em;
+    font-size: xx-large;
+}
+.center{
+    margin: auto auto;
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+}
+.dropdown{
+    margin: 1rem auto;
+}
+select{
+    min-width: 200px;
+    font-size: 1.1em;
+}
+input{
+    font-size: 1em;
+}
+input[type=submit] {
+    margin-bottom:1.5rem;
+}
+
+table{
+    width:50%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+td{
+   text-align: center;
+   padding: 1em;
+}
+
+
+button{
+    width: 200px;
+    margin: 1em auto;
+    font-size: 1em;
+}
+footer{
+    margin: auto auto 1em;
+    padding-top: 1em;
+}
+
